@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin View</title>
+    <link rel="stylesheet" href="css/admin.css" />
+    <script defer src="css/admin.js"></script>
+  </head>
+  <body>
+    <div class="adminnav">
+      <img src="img/admin1.png" class="icon" id="adminicon" />
+      <h1>Admin</h1>
+      <div class="sidebar">
+        <li class="adminhome">Admin Home</li>
+        <li class="viewemployee">Search Employee</li>
+        <li class="addemployee">Add Employee</li>
+        <li class="logout">Logout</li>
+      </div>
+    </div>
+    <div class="emppreview">
+      <% for(let a of array){%>
+      <div class="empview">
+        <ul>
+          <div class="empname">
+            <img src="/img/profile.png" class="icon" id="profile" />
+            <li class="<%=a%>"><%=a%></li>
+          </div>
+
+          <div class="container">
+            <!-- <img src="img/edit.png" class="icon" id="editicon" /> -->
+            <li><a href="/admin/<%=a %>">Edit</a></li>
+
+            <!-- <img src="img/delete.png" class="icon" id="deleteicon" /> -->
+            <li><a href="/admin/delete/<%=a%>">Delete</a></li>
+          </div>
+        </ul>
+      </div>
+      <% } %>
+    </div>
+  </body>
+</html>

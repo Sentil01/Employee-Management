@@ -1,0 +1,233 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background-color: #1a07fe;
+}
+.adminnav {
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* background-color: #f0e68c; */
+  align-items: center;
+  padding: 20px;
+  margin-left: 30px;
+  color: #fefbf3;
+}
+.sidebar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 300px;
+}
+h1 {
+  padding-left: 20px;
+  margin-right: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.adminnav .sidebar li {
+  display: inline;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 20px;
+  letter-spacing: 2px;
+}
+.adminnav .sidebar li:hover {
+  background-color: #fefbf3;
+  color: #1a07fe;
+  border-radius: 15px;
+  padding: 13px;
+}
+
+/* .employeedetails .divcontainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .divleft {
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+  }
+  .divright {
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: row;
+  } */
+.admincontent {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  color: #1a07fe;
+  background-color: #fefbf3;
+  margin: 10px 50px;
+  border-radius: 20px;
+}
+.employeedetails .divcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.employeedetails div {
+  margin: 10px;
+  padding: 10px;
+}
+.employeedetails div input {
+  margin-left: 20px;
+  padding: 10px;
+  border-color: #1a07fe;
+  border-radius: 10px;
+}
+.divcontainer .divleft div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: ; */
+}
+.divcontainer .divright div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: ; */
+}
+.divcontainer label {
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.savebtn {
+  margin-top: 0px;
+
+  /* margin-left: 300px; */
+  position: absolute;
+  left: 48%;
+  bottom: 0.5%;
+  padding: 10px;
+  background-color: #1a07fe;
+  color: #fefbf3;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+}
+.editbtn {
+  margin-top: 0px;
+
+  /* margin-left: 300px; */
+  position: absolute;
+  left: 48%;
+  bottom: -6%;
+  padding: 10px;
+  background-color: #1a07fe;
+  color: #fefbf3;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+}
+.emppreview {
+  width: 90%;
+  position: absolute;
+  margin: 30px;
+  background-color: #fefbf3;
+  color: blue;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 55px;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.empview {
+  display: flex;
+  /* border-bottom: solid 2px blue; */
+}
+
+/* background-color: #1a07fe;
+  color: #fefbf3;
+  border-radius: 10px;
+  padding-left: 20px;
+
+  width: 20%;
+  margin-right: 320px; */
+/* border: 20px solid #1a07fe; */
+
+.empview div {
+  display: flex;
+
+  /* padding-right: 400px; */
+}
+
+.empview ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: 250px;
+  align-items: center;
+}
+.empview ul li {
+  margin: 20px;
+
+  text-decoration: none;
+}
+ul div {
+  margin-right: 250px;
+}
+
+/* #editicon {
+  height: 35%;
+  width: 20%;
+  border-radius: 50%;
+  margin-top: 20px;
+  
+}
+#deleteicon {
+  height: 25%;
+  width: 10%;
+  border-radius: 40%;
+  margin-top: 25px;
+} */
+#profile {
+  height: 10%;
+  width: 10%;
+  border-radius: 50%;
+  margin-top: 14px;
+}
+#adminicon {
+  height: 3%;
+  width: 3%;
+  border-radius: 50%;
+}
+.search {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-left: 50px;
+}
+.search input {
+  padding: 10px;
+  border: 2px solid #1a07fe;
+  border-radius: 10px;
+}
+.searchbtn {
+  /* margin-left: 300px; */
+
+  padding: 10px;
+  background-color: #fefbf3;
+  color: #1a07fe;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+}
+.previewcontainer p {
+  padding: 20px;
+  margin-left: 30px;
+  color: #fefbf3;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.hidden {
+  display: none;
+}

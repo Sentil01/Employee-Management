@@ -1,0 +1,120 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.adminnav {
+  display: flex;
+  /* justify-content: space-evenly; */
+  background-color: #a9a9a9;
+  align-items: center;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 900;
+
+  color: #fefbf3;
+}
+.sidebar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 500px;
+}
+h1 {
+  padding-left: 10px;
+  margin-right: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.adminnav .sidebar li {
+  display: inline;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 20px;
+  letter-spacing: 2px;
+}
+.adminnav .sidebar li:hover {
+  background-color: #fefbf3;
+  color: #a9a9a9;
+  border-radius: 15px;
+  padding: 13px;
+}
+.adminnav img {
+  padding-left: 100px;
+}
+.ceoicon {
+  height: 3%;
+  width: 3%;
+  border-radius: 50%;
+}
+.search {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  margin-left: 50px;
+}
+.search input {
+  padding: 10px;
+  border: 2px solid #a9a9a9;
+  border-radius: 10px;
+}
+.searchbtn {
+  /* margin-left: 300px; */
+
+  padding: 10px;
+  background-color: #a9a9a9;
+  color: #fefbf3;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+}
+.previewcontainer p {
+  padding: 20px;
+  margin-left: 30px;
+  color: red;
+  font-size: 20px;
+  font-weight: 700;
+}
+.admincontent {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  color: #fefbf3;
+  background-color: #a9a9a9;
+  margin: 10px 50px;
+  border-radius: 20px;
+}
+.employeedetails .divcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.employeedetails div {
+  margin: 10px;
+  padding: 10px;
+}
+.employeedetails div input {
+  margin-left: 20px;
+  padding: 10px;
+  border-color: #fefbf3;
+  border-radius: 10px;
+}
+.divcontainer .divleft div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: ; */
+}
+.divcontainer .divright div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: ; */
+}
+.divcontainer label {
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CEO View Employee</title>
+    <link rel="stylesheet" href="/css/ceoview.css" />
+    <script defer src="/css/ceo.js"></script>
+    <!-- <script defer src="/css/viewemployee.js"></script> -->
+  </head>
+  <body>
+    <div class="adminnav">
+      <img src="/img/ceo-1415955-1195865.png" class="ceoicon" />
+      <h1>CEO</h1>
+      <div class="sidebar">
+        <li class="ceohome">Ceo Home</li>
+        <li class="viewemployee">Search Employee</li>
+
+        <li class="logout">Logout</li>
+      </div>
+    </div>
+    <div class="divflex">
+      <div class="previewcontainer">
+        <div class="search">
+          <input class="searchinput" type="text" />
+          <button class="searchbtn">Search</button>
+        </div>
+        <!-- <div class="preview">
+          <p>Sentil</p>
+        </div> -->
+        <!-- <div class="preview">
+          <p>Sundar</p>
+        </div>
+        <div class="preview">
+          <p>vatsan</p>
+        </div> -->
+      </div>
+      <div class="admincontent">
+        <div class="employeedetails">
+          <!-- <form action="/admin/edit" method="post"> -->
+          <div class="divcontainer">
+            <div class="divleft">
+              <div>
+                <label for="employeename">Name:</label>
+                <input
+                  name="employeename"
+                  type="text"
+                  class="name"
+                  value="<%= e.employeename %> "
+                />
+              </div>
+              <div>
+                <label for="age">Age:</label>
+                <input
+                  name="age"
+                  type="text"
+                  class="age"
+                  value="<%= e.age %> "
+                />
+              </div>
+              <div>
+                <label for="dob">DOB:</label>
+                <input
+                  name="dob"
+                  type="text"
+                  class="dob"
+                  value="<%= e.dob %> "
+                />
+              </div>
+              <div>
+                <label for="gender">Gender:</label>
+                <input
+                  name="gender"
+                  type="text"
+                  class="gender"
+                  value="<%= e.gender %> "
+                />
+              </div>
+
+              <div>
+                <label for="qualification">Educational Qualification:</label>
+                <input
+                  name="qualification"
+                  type="text"
+                  class="qualification"
+                  value="<%= e.qualification %> "
+                />
+              </div>
+              <div>
+                <label for="email">Email Address:</label>
+                <input
+                  name="email"
+                  type="text"
+                  class="email"
+                  value="<%= e.email %> "
+                />
+              </div>
+              <div>
+                <label for="phno">Contact Number:</label>
+                <input
+                  name="phno"
+                  type="text"
+                  class="phno"
+                  value="<%= e.phno %> "
+                />
+              </div>
+            </div>
+            <div class="divright">
+              <div>
+                <label for="ecode">Employee Identificatin Code:</label>
+                <input name="ecode" type="text" class:"ecode" value="<%= e.ecode
+                %> "/>
+              </div>
+              <div>
+                <label for="etype">Employement Type:</label>
+                <input
+                  name="etype"
+                  type="text"
+                  class="etype"
+                  value="<%= e.etype %> "
+                />
+              </div>
+              <div>
+                <label for="estatus">Employement Status:</label>
+                <input
+                  name="estatus"
+                  type="text"
+                  class="estatus"
+                  value="<%= e.estatus %> "
+                />
+              </div>
+              <div>
+                <label for="join">Date Of Joining:</label>
+                <input
+                  name="join"
+                  type="text"
+                  class="join"
+                  value="<%= e.join%> "
+                />
+              </div>
+              <div>
+                <label for="description">Job description:</label>
+                <input
+                  name="description"
+                  type="text"
+                  class="description"
+                  value="<%= e.decription%> "
+                />
+              </div>
+              <div>
+                <label for="skills">Skills And Expertise:</label>
+                <input
+                  name="skills"
+                  type="text"
+                  class="skills"
+                  value="<%= e.skills %> "
+                />
+              </div>
+              <div>
+                <label for="designation">Designation:</label>
+                <input
+                  name="designation"
+                  type="text"
+                  class="designation"
+                  value="<%= e.designation %> "
+                />
+                <!-- <button class="editbtn">Edit</button> -->
+              </div>
+              <!-- </form> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

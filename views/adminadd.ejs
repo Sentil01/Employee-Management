@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin View</title>
+    <link rel="stylesheet" href="css/admin.css" />
+    <script defer src="css/admin.js"></script>
+  </head>
+  <body>
+    
+    <div class="adminnav">
+      <img src="img/admin1.png" class="icon" id="adminicon" />
+      <h1>Admin</h1>
+
+      <div class="sidebar">
+        <li class="adminhome">Admin Home</li>
+        <li class="viewemployee">Search Employee</li>
+        <li class="addemployee">Add Employee</li>
+        <li class="logout">Logout</li>
+      </div>
+    </div>
+    <div class="admincontent">
+      <div class="employeedetails">
+       <form action="/submit" class="addform" method="post">
+        <div class="divcontainer">
+          <div class="divleft">
+            <div>
+              <label for="employeename">Name:</label>
+              <input name="employeename" type="text" class="name" />
+            </div>
+            <div>
+              <label for="age">Age:</label>
+              <input name="age" type="text" class="age" />
+            </div>
+            <div>
+              <label for="dob">DOB:</label>
+              <input name="dob" type="text" class="dob" />
+            </div>
+            <div>
+              <label for="gender">Gender:</label>
+              <input name="gender" type="text" class="gender" />
+            </div>
+
+            <div>
+              <label for="qualification">Educational Qualification:</label>
+              <input name="qualification" type="text" class="qualification" />
+            </div>
+            <div>
+              <label for="email">Email Address:</label>
+              <input name="email" type="text" class="email" />
+            </div>
+            <div>
+              <label for="phno">Contact Number:</label>
+              <input name="phno" type="text" class="phno" />
+            </div>
+          </div>
+          <div class="divright">
+            <div>
+              <label for="ecode">Employee Identificatin Code:</label>
+              <input name="ecode" type="text" class:"ecode" />
+            </div>
+            <div>
+              <label for="etype">Employement Type:</label>
+              <input name="etype" type="text" class="etype" />
+            </div>
+            <div>
+              <label for="estatus">Employement Status:</label>
+              <input name="estatus" type="text" class="estatus" />
+            </div>
+            <div>
+              <label for="join">Date Of Joining:</label>
+              <input name="join" type="text" class="join" />
+            </div>
+            <div>
+              <label for="description">Job description:</label>
+              <input name="description" type="text" class="description" />
+            </div>
+            <div>
+              <label for="skills">Skills And Expertise:</label>
+              <input name="skills" type="text" class="skills" />
+            </div>
+            <div>
+              <label for="designation">Designation:</label>
+              <input name="designation" type="text" class="designation" />
+            </div>
+            <button class="savebtn">Save</button>
+         </form>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
